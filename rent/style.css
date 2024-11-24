@@ -1,0 +1,737 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: white;
+    padding: 12px;
+    gap: 20px;
+    background-image: linear-gradient(to top, rgb(13, 14, 19), rgb(0, 0, 65));
+    
+}
+
+.first .upload{
+    width: 40%;
+    border-radius: 12px;
+    box-shadow: 1px 3px 4px rgb(20, 128, 92);
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: auto;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid rgb(29, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+.first .upload input{
+    margin-left: 8px;
+    padding: 4px 10px;
+    font-weight: bold;
+    width: 35%;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+    color: blue;
+    padding-top: 10px;
+}
+.first .upload  p{
+    font-weight: bold;
+    font-size: 22px;
+}
+.first .upload img{
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    filter: grayscale(1.5);
+}
+.first .upload img:hover{
+    filter: grayscale(0);
+    transition: 2 linear all;
+}
+.first .brand{
+    width: 30%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: auto;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid rgb(29, 255, 255);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 3px 4px rgb(20, 128, 92);
+
+}
+
+.first .brand select {
+width: 60%;
+height: 40px;
+cursor: pointer;
+font-size: 18px;
+border-radius: 8px;
+border: 2px solid rgb(59, 47, 226);
+outline: 0;
+background-color: transparent;
+color: white;
+padding: 8px;
+padding-left: 8px;
+
+}
+
+.first .brand select option {
+    background-color: rgb(3, 3, 3);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.first .title {
+    width: 30%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 1px 3px 4px rgb(20, 128, 92);
+    height: auto;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid rgb(29, 255, 255);
+    justify-content: center;
+    align-items: center;   
+}
+
+.first .title input{
+    width: 60%;
+    height: 30px;
+   font-size: 20px;
+   padding: 12px;
+   color: black;
+   border: 0;
+   outline: 0;
+   border-radius: 8px;
+}
+
+.first .title input::placeholder{
+    font-size: 18px;
+    padding: 2px;
+    font-family: sans-serif;
+}
+.first .discription{
+    width: 30%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 1px 3px 4px rgb(20, 128, 92);
+    height: auto;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid rgb(29, 255, 255);
+    justify-content: center;
+    align-items: center;   
+}
+
+.first .discription input{
+    width: 80%;
+    height: 50px;
+   font-size: 20px;
+   padding: 12px;
+   color: black;
+   border: 0;
+   outline: 0;
+   border-radius: 8px;
+}
+
+.first .discription input::placeholder{
+    font-size: 18px;
+}
+
+
+.first .price {
+  
+       width: 30%;
+       border-radius: 12px;
+       display: flex;
+       flex-direction: row;
+       gap: 8px;
+       box-shadow: 1px 3px 4px rgb(20, 128, 92);
+       height: auto;
+       padding: 12px;
+       text-align: center;
+       border: 2px solid rgb(29, 255, 255);
+       justify-content: center;
+       align-items: center;
+}
+.first .price .ch{
+    width: 30px;
+    height: 30px;
+    outline: 0;
+    border: 0;
+}
+.first .price .fh{
+    height: 30px;
+    width: 50%;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 5px;
+}
+.first .price p {
+    color: rgb(0, 68, 255);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.first .butts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    border: 2px solid pink;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.first .butts input {
+    border: 0;
+    outline: 0;
+    width: 34%;
+    height: 50%;
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 4px;
+   
+}
+
+
+.first .butts .reset{
+    background-color: rgb(39, 74, 189);
+    color: white;
+    cursor: pointer;
+}
+.first .butts .send{
+    background-color: rgb(21, 172, 66);
+    color: white;
+    cursor: pointer;
+}
+
+.first .butts .reset:hover{
+    background-color: rgb(10, 7, 129);
+    transition: 0.2s linear all;
+}
+
+.first .butts .send:hover{
+    background-color: rgb(3, 110, 12);
+    transition: 0.2s linear all;
+    
+}
+
+@media (min-width:1000px) and (max-width:1107px) {
+    .first .upload {
+        width: 80%;
+    }
+    .first .upload input{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 50px;
+    }
+    .first .brand {
+        width: 50%;
+    }
+    .first .title {
+        width: 50%;
+    }
+    .first .discription{
+         width: 50%;
+         
+    }
+    
+    .first .price{
+      width: 60%;
+    }
+    .first .butts{
+        width: 40%;
+    }
+}
+
+@media (min-width:900px) and (max-width:1000px) {
+    .first .upload {
+        width: 80%;
+    }
+    .first .upload input{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 50px;
+    }
+    .first .brand {
+        width: 50%;
+    }
+    .first .title {
+        width: 50%;
+    }
+    .first .discription{
+         width: 50%;
+         
+    }
+    
+    .first .price{
+      width: 60%;
+    }
+    .first .butts{
+        width: 40%;
+    }
+}
+
+@media (min-width:800px) and (max-width:900px) {
+    .first .upload {
+        width: 80%;
+    }
+    .first .upload input{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 50px;
+    }
+    .first .brand {
+        width: 50%;
+    }
+    .first .title {
+        width: 50%;
+    }
+    .first .discription{
+         width: 50%;
+         
+    }
+    
+    .first .price{
+      width: 60%;
+    }
+    .first .butts{
+        width: 40%;
+    }
+}
+@media (min-width:700px) and (max-width:800px) {
+    .first .upload {
+        width: 80%;
+    }
+    .first .upload input{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 50px;
+    }
+    .first .brand {
+        width: 50%;
+    }
+    .first .title {
+        width: 50%;
+    }
+    .first .discription{
+         width: 50%;
+         
+    }
+    
+    .first .price{
+      width: 60%;
+    }
+    .first .butts{
+        width: 40%;
+    }
+}
+@media (min-width:600px) and (max-width:700px) {
+    .first .upload {
+        width: 70%;
+    }
+    .first .upload p{
+        font-size: 20px;
+    }
+    .first .upload input{
+    font-size: 17px;
+    text-align: center;
+    padding-left: 5px;
+    }
+    .first .brand {
+        width: 50%;
+    }
+    .first .brand select{
+        width: 70%;
+    
+    }
+    .first .title {
+        width: 50%;
+    }
+    .first .discription{
+         width: 50%;
+         
+    }
+    
+    .first .price{
+      width: 60%;
+    }
+    .first .price h2{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .first .price p{
+        font-size: 20px;
+    }
+    .first .price .ch{
+        width: 30px;
+        height: 30px;
+    }
+    .first .butts{
+        width: 40%;
+    }
+}
+@media (min-width:500px) and (max-width:600px) {
+    .first .upload {
+        width: 80%;
+    }
+    .first .upload p{
+        font-size: 18px;
+    }
+    .first .upload input{
+    font-size: 16.5px;
+    text-align: center;
+    padding-left: 5px;
+    }
+    .first .brand {
+        width: 70%;
+    }
+    .first .brand select{
+        width: 70%;
+    
+    }
+    .first .title {
+        width: 50%;
+    }
+    .first .discription{
+         width: 80%;
+         
+    }
+    
+    .first .discription input{
+        height: 40px;
+
+    }
+    .first .price{
+      width: 80%;
+    }
+    .first .price h2{
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .first .price p{
+        font-size: 20px;
+    }
+    .first .price .ch{
+        width: 30px;
+        height: 30px;
+    }
+    .first .butts{
+        width: 70%;
+    }
+}
+
+@media (min-width:400px) and (max-width:500px) {
+    .first .upload {
+        width: 70%;
+    }
+    .first .upload p{
+        font-size: 16px;
+    }
+    .first .upload input{
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+    }
+    .first .brand {
+        width: 70%;
+    }
+    .first .brand select{
+        width: 70%;
+    
+    }
+    .first .title {
+        width: 60%;
+    }
+    .first .title input{
+        width: 80%;
+        height: 20px;
+    }
+    .first .discription{
+         width: 80%;
+         
+    }
+    .first .discription #description::placeholder{
+        font-size: 16px;
+    }
+    
+    .first .discription input{
+        height: 40px;
+
+    }
+    .first .price{
+      width: 80%;
+    }
+    .first .price h2{
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .first .price p{
+        font-size: 20px;
+    }
+    .first .price .ch{
+        width: 30px;
+        height: 30px;
+    }
+    .first .butts{
+        width: 70%;
+    }
+}
+@media (min-width:300px) and (max-width:400px) {
+    .first .upload {
+        width: 80%;
+        
+    }
+    .first .upload p{
+        font-size: 16px;
+    }
+    .first .upload input{
+    font-size: 12px;
+    text-align: center;
+    padding-left: 3px;
+   height: 22px;
+    width: 40%;
+    padding-top: 4px;
+    }
+    .first .brand {
+        width: 80%;
+    }
+    .first .brand select{
+        width: 80%;
+        font-size: 14px;
+        font-weight: bold;
+    
+    }
+    .first .title {
+        width: 80%;
+    }
+    .first .title input{
+        width: 80%;
+        height: 20px;
+    }
+    .first .discription{
+         width: 80%;
+         
+    }
+    .first .discription #description::placeholder{
+        font-size: 13px;
+    }
+    
+    .first .discription input{
+        height: 30px;
+
+    }
+    .first .price{
+      width: 90%;
+      gap: 2px;
+    }
+    .first .price h2{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .first .price p{
+        font-size: 16px;
+    }
+    .first .price .ch{
+        width: 20px;
+        height: 20px;
+    }
+    .first .butts{
+        width: 70%;
+    }
+}
+@media (min-width:200px) and (max-width:300px) {
+    .first .upload {
+        width: 80%;
+        
+    }
+    .first .upload p{
+        font-size: 12px;
+    }
+    .first .upload input{
+    font-size: 10px;
+    text-align: center;
+    padding-left: 3px;
+   height: 20px;
+    width: 48%;
+    padding-top: 4px;
+    }
+    .first .brand {
+        width: 80%;
+    }
+    .first .brand h2{
+        font-size: 20px;
+    }
+    .first .brand select{
+        width: 90%;
+        font-size: 12px;
+        font-weight: bold;
+    
+    }
+    .first .title {
+        width: 80%;
+    }
+    .first .title h2{
+        font-size: 20px;
+    }
+    .first .title input{
+        width: 60%;
+        height: 16px;
+        font-size: 14px;
+    }
+    .first .title #title::placeholder{
+        font-size: 15px;
+    }
+    .first .discription{
+         width: 80%;
+         
+    }
+    .first .discription h2{
+        font-size: 20px;
+    }
+    .first .discription #description::placeholder{
+        font-size: 12px;
+    }
+    
+    .first .discription input{
+        height: 20px;
+
+    }
+    .first .price{
+      width: 90%;
+      gap: 6px;
+    }
+    .first .price h2{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .first .price p{
+        font-size: 12px;
+    }
+    .first .price .ch{
+        width: 20px;
+        height: 20px;
+    }
+    .first .price .ch{
+       font-size: 10px;
+    }
+    .first .butts{
+        width: 80%;
+    }
+    .first .butts .reset,
+    .first .butts .send{
+            font-size: 14px;
+            padding: 5px;
+    }
+}
+@media (min-width:150px) and (max-width:200px) {
+    .first .upload {
+        width: 80%;
+        
+    }
+    .first .upload p{
+        font-size: 12px;
+    }
+    .first .upload input{
+    font-size: 9px;
+    text-align: center;
+    padding-left: 3px;
+   height: 20px;
+    width: 65%;
+    padding-top: 6px;
+    }
+    .first .brand {
+        width: 80%;
+    }
+    .first .brand h2{
+        font-size: 20px;
+    }
+    .first .brand select{
+        width: 100%;
+        font-size: 10px;
+        font-weight: 400;
+    
+    }
+    .first .title {
+        width: 80%;
+    }
+    .first .title h2{
+        font-size: 20px;
+    }
+    .first .title input{
+        width: 80%;
+        height: 12px;
+        font-size: 14px;
+    }
+    .first .title #title::placeholder{
+        font-size: 13px;
+    }
+    .first .discription{
+         width: 80%;
+         
+    }
+    .first .discription h2{
+        font-size: 20px;
+    }
+    .first .discription #description::placeholder{
+        font-size: 12px;
+    }
+    
+    .first .discription input{
+        height: 20px;
+
+    }
+    .first .price{
+      width: 90%;
+      gap: 0px;
+    }
+    .first .price h2{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .first .price p{
+        font-size: 12px;
+    }
+    .first .price .ch{
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+  .first .price .fh{
+    width: 50%;
+  }
+    .first .butts{
+        width: 90%;
+    }
+    .first .butts .reset,
+    .first .butts .send{
+            font-size: 11px;
+            padding: 2px;
+    }
+}

@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+   height: 100vh;
+   /* background-image: linear-gradient(to top, rgb(12, 20, 17),rgb(48, 133, 136)); */
+   background-image: linear-gradient( to top, rgb(178, 221, 221), rgb(248, 236, 214));
+}
+
+
+.con .one{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.con .one img,
+.con .two img
+{
+    height: 58px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+
+.con .two {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.con .one .one-one p,
+.con .two .two-two p
+{
+color: black;
+font-size: 20px;
+}
+
+
+.con .one .one-one p span,
+.con .two .two-two p span
+{
+    background-color: green;
+    padding: 2px;
+    color: white;
+}
+
+
+
+@media (min-width:400px) and (max-width:500px) {
+    .con .one{
+        display: flex;
+        gap: 20px;
+    }
+    .con .one .one-one span{
+        color: yellow;
+        background-color: black;
+        padding: 6px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .con .two{
+        display: flex;
+        gap: 20px;
+    }
+    .con .two .two-two span{
+        color: yellow;
+        background-color: black;
+        padding: 6px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
+
+
+@media (min-width:300px) and (max-width:400px) {
+    .con .one{
+        display: flex;
+        gap: 20px;
+    }
+    .con .one .one-one span,
+    .con .two .two-two span
+    {
+        color: green;
+        background-color: black;
+        padding: 6px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .con .one .one-one p,
+    .con .two .two-two p
+    {
+        font-size: 18px;
+    }
+    
+    .con .one img,
+    .con .two img
+    {
+        width: 40px;
+        height: 40px;
+    }
+    .con .two{
+        display: flex;
+        gap: 20px;
+    }
+   
+}
+
+
+@media (min-width:200px) and (max-width:300px) {
+    .con .one,
+    .con .two
+    {
+        display: flex;
+        gap: 10px;
+    }
+    .con {
+        gap: 40px;
+    }
+    .con .one h3,
+    .con .two h3{
+        font-size: 18px;
+    }
+    .con .one .one-one span,
+    .con .two .two-two span
+    {
+        color: rgb(212, 62, 119);
+        background-color: black;
+        padding: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .con .one .one-one p,
+    .con .two .two-two p
+    {
+        font-size: 16px;
+    }
+    
+    .con .one img,
+    .con .two img
+    {
+        width: 32px;
+        height: 32px;
+    }
+    
+   
+}
+
+
+@media (min-width:150px) and (max-width:200px) {
+    .con .one,
+    .con .two
+    {
+        display: flex;
+        gap: 10px;
+    }
+    .con {
+        gap: 40px;
+    }
+    .con .one h3,
+    .con .two h3{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .con .one .one-one span,
+    .con .two .two-two span
+    {
+        color: rgb(212, 62, 119);
+        background-color: black;
+        padding: 2px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .con .one .one-one p,
+    .con .two .two-two p
+    {
+        font-size: 12px;
+    }
+    
+    .con .one img,
+    .con .two img
+    {
+        width: 32px;
+        height: 32px;
+        margin-top: 12px;
+    }
+    
+   
+}

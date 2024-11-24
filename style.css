@@ -1,0 +1,4802 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.counter{
+    display: flex;
+    justify-content: center;
+    
+    height: auto;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.counter .swap1{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter .swap1 .one{
+    height: 80px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.counter .swap1 .one:hover{
+    transform: scale(1.2);
+    transition: 0.2s linear all;
+}
+.counter .swap1 .inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 0px;
+    width: 40%;
+}
+
+.counter .swap1 .inp input{
+    width: 100%;
+    height: 42px;
+    outline: 0;
+    border: 0;
+
+    border-top-left-radius: 6px;
+    font-size: 21px;
+    padding: 10px;
+    border-bottom-left-radius: 6px;
+}
+
+
+.counter .swap1 .inp p{
+    height:40px ;
+    width: 40px;
+    text-align: center;
+    padding: 1px 3px;
+    background-color: rgb(172, 32, 32);
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.counter .swap1 .inp p:hover{
+    background-color: rgb(124, 13, 13);
+    transition: 0.2s linear all;
+}
+.counter .swap1 .inp p img{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+
+
+.counter .swap1 a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.counter .buttons .jo{
+    color: gray;
+}
+.counter .swap1 a:hover{
+    color: gray;
+    transition: 0.1s linear all;
+}
+
+
+.counter .products{
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.counter .products .sports{
+display: flex;
+justify-content: center;
+height: auto;
+width: auto;
+align-items: center;
+gap: 50px;
+}
+
+
+.counter .products .sports .photo1,
+.counter .products .sports .photo2,
+.counter .products .sports .photo3,
+.counter .products .music .img1,
+.counter .products .music .img2,
+.counter .products .music .img3,
+.counter .products .equipment .ince ,
+.counter .products .equipment .zwai ,
+.counter .products .equipment .drei{
+    border-radius: 12px;
+}
+.counter .products .sports .for1 .photo1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+}
+
+.counter .products .sports .photo1 img{
+    height: 40%;
+    width: 55%;
+}
+
+.counter .products .sports .photo1 p{
+    color: black;
+    font-size: 22px;
+    padding: 8px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.counter .products .sports .photo1 button{
+    width: 70%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(112, 39, 39);
+
+}
+
+
+.counter .products .sports .photo1 button del{
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+
+
+
+.counter .products .sports .photo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    }
+    
+    .counter .products .sports .photo2 img{
+        height: 46%;
+        width: 70%;
+    }
+  
+    .counter .products .sports .photo2 p{
+        color: black;
+        font-size: 22px;
+        padding: 8px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    
+    .counter .products .sports .photo2 button{
+        width: 70%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(112, 39, 39);
+
+    }
+    .counter .products .sports .photo2 button del{
+        background-color: red;
+        color: white;
+        padding: 2px;
+    }
+
+    .counter .products .sports .photo3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        height: 500px;
+        width: 50%;
+        text-align: center;
+        }
+        
+        .counter .products .sports .photo3 img{
+            height: 41%;
+            width: 50%;
+        
+        }
+       
+        .counter .products .sports .photo3 p{
+            color: black;
+            font-size: 22px;
+            padding: 8px;
+            font-weight: 600;
+            font-family: sans-serif;
+
+        }
+        
+ .counter .products .sports .photo3 button{
+    width: 70%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(112, 39, 39);
+
+        }
+    
+ .counter .products .sports .photo3 button del{
+            background-color: red;
+            color: white;
+            padding: 2px;
+        }
+
+
+        .counter .products .sports .photo4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 8px;
+            height: 500px;
+            width: 50%;
+            text-align: center;
+            }
+            
+            .counter .products .sports .photo4 img{
+                height: 44%;
+                width: 60%;
+            cursor: pointer;
+            
+            }
+           
+            .counter .products .sports .photo4 p{
+                color: black;
+            font-size: 22px;
+            padding: 8px;
+            font-weight: 600;
+            font-family: sans-serif;
+    
+            }
+            
+            .counter .products .sports .photo4 button{
+                width: 70%;
+                height: 40px;
+                font-weight: bold;
+                font-size: 16px;
+                border: 0;
+                outline: 0;
+                border-radius: 3px;
+                color: white;
+                font-family: sans-serif;
+                background-color: rgb(112, 39, 39);
+            
+                    }
+        
+     .counter .products .sports .photo4 button del{
+                background-color: red;
+                color: white;
+                padding: 2px;
+            }
+.counter .products .sports .photo4 img:hover{
+    transform: rotateY(180deg);
+    transition: 0.3s linear all;
+}
+.counter .products .sports .for1{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+.counter .products .sports .for2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+/* .counter .products .sports .photo1,
+.counter .products .sports .photo2,
+.counter .products .sports .photo3{
+background-color: gray;
+} */
+
+.counter .products .sports .photo1 a,
+.counter .products .sports .photo2 a,
+.counter .products .sports .photo3 a,
+.counter .products .sports .photo4 a
+{
+text-decoration: none;
+color: orange;
+padding: 6px;
+background-color: black;
+}
+
+
+
+.counter .products .music {
+    display: flex;
+justify-content: space-between;
+height: auto;
+width: auto;
+align-items: center;
+gap: 50px;
+
+    
+}
+
+
+
+
+
+.counter .products .music .img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+}
+
+
+.counter .products .music .img1 img{
+    height: 41%;
+    width: 70%;
+    }
+    
+    .counter .products .music .img1 p{
+        color: black;
+        font-size: 22px;
+        padding: 8px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+    .counter .products .music .img1 button{
+        width: 80%;
+        height: 40px;
+        font-weight: bold;
+        font-size: 16px;
+        border: 0;
+        outline: 0;
+        border-radius: 3px;
+        color: white;
+        font-family: sans-serif;
+        background-color: rgb(112, 39, 39);
+        }
+        
+        
+        .counter .products .music .img1 button del{
+            background-color: red;
+            color: white;
+            padding: 2px;
+        }
+
+
+
+
+        .counter .products .music .img2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 13px;
+            height: 500px;
+            width: 50%;
+            text-align: center;
+        }
+        
+        
+        .counter .products .music .img2 img{
+            height: 42%;
+            width: 70%;
+            }
+            
+            .counter .products .music .img2 p{
+                color: black;
+                font-size: 22px;
+                padding: 8px;
+                font-weight: 600;
+                font-family: sans-serif;
+            }
+        
+            .counter .products .music .img2 button{
+                width: 80%;
+                height: 40px;
+                font-weight: bold;
+                font-size: 16px;
+                border: 0;
+                outline: 0;
+                border-radius: 3px;
+                color: white;
+                font-family: sans-serif;
+                background-color: rgb(112, 39, 39);
+                }
+                
+                
+ .counter .products .music .img2 button del{
+    background-color: red;
+    color: white;
+    padding: 2px;
+    }
+
+
+
+    .counter .products .music .img3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 13px;
+        height: 500px;
+        width: 50%;
+        text-align: center;
+    }
+    
+    
+    .counter .products .music .img3 img{
+        height: 42%;
+        width: 55%;
+        }
+        
+        .counter .products .music .img3 p{
+            color: black;
+            font-size: 22px;
+            padding: 8px;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+    
+        .counter .products .music .img3 button{
+            width: 80%;
+            height: 40px;
+            font-weight: bold;
+            font-size: 16px;
+            border: 0;
+            outline: 0;
+            border-radius: 3px;
+            color: white;
+            font-family: sans-serif;
+            background-color: rgb(112, 39, 39);
+            }
+            
+            
+            
+            .counter .products .music .img3 button del{
+                background-color: red;
+                color: white;
+                padding: 2px;
+            }
+    
+    
+
+
+            .counter .products .music .img4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 13px;
+                height: 500px;
+                width: 50%;
+                text-align: center;
+            }
+            
+            
+            .counter .products .music .img4 img{
+                height: 36%;
+                width: 70%;
+                cursor: pointer;
+                }
+                
+                .counter .products .music .img4 img:hover{
+                    transform: rotateY(180deg);
+                    transition: 0.3s linear all;
+                }
+                .counter .products .music .img4 p{
+                    color: black;
+                    font-size: 22px;
+                    padding: 8px;
+                    font-weight: 600;
+                    font-family: sans-serif;
+                }
+            
+                .counter .products .music .img4 button{
+                    width: 70%;
+                    height: 40px;
+                    font-weight: bold;
+                    font-size: 16px;
+                    border: 0;
+                    outline: 0;
+                    border-radius: 3px;
+                    color: white;
+                    font-family: sans-serif;
+                    background-color: rgb(112, 39, 39);
+                    }
+                    .counter .products .music .img4 a{
+                        text-decoration: none;
+                        color: white;
+                        background-color: black;
+                        color: orange;
+                        padding: 6px;
+                    }
+        
+.counter .products .music .img4 button del{
+background-color: red;
+color: white;
+padding: 2px;
+}
+
+.counter .products .music .grand1{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+  
+}
+.counter .products .music .grand2{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+/* ....................... */
+
+       
+            .rrrr{
+                transform: translate(180px,-10px);
+            }
+
+        
+   
+.counter .products .equipment .ince{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        height: 500px;
+        width: 52%;
+        text-align: center;
+}
+
+
+.counter .products .equipment .ince img{
+    height: 30%;
+    width: 55%;
+    }
+    
+
+
+
+    .counter .products .equipment .ince p{
+        color: black;
+        font-size: 22px;
+        padding: 8px;
+        font-weight: 600;
+        font-family: sans-serif;
+        }
+    
+        .counter .products .equipment .ince button{
+            width: 70%;
+            height: 40px;
+            font-weight: bold;
+            font-size: 16px;
+            border: 0;
+            outline: 0;
+            border-radius: 3px;
+            color: white;
+            font-family: sans-serif;
+            background-color: rgb(112, 39, 39);
+            }
+            
+            
+            .counter .products .equipment .ince button del{
+                background-color: red;
+                color: white;
+                padding: 2px;
+            }
+    
+
+
+
+.counter .products .equipment .zwai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 500px;
+    width: 48%;
+    text-align: center;
+}
+            
+            
+.counter .products .equipment .zwai img{
+     width: 70%;
+     height: 30%;
+     }
+                
+            
+            
+            
+    .counter .products .equipment .zwai p{
+        color: black;
+        font-size: 22px;
+        padding: 8px;
+        font-weight: 600;
+        font-family: sans-serif;
+        }
+                
+.counter .products .equipment .zwai button{
+     width: 80%;
+     height: 40px;
+     font-weight: bold;
+     font-size: 16px;
+     border: 0;
+      outline: 0;
+     border-radius: 3px;
+     color: white;
+     font-family: sans-serif;
+     background-color: rgb(112, 39, 39);
+}
+                        
+                        
+.counter .products .equipment .zwai button del{
+  background-color: red;
+    color: white;
+    padding: 2px;
+  }
+                
+            
+            
+            
+  .counter .products .equipment .drei{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 500px;
+    width: 45%;
+    }
+                
+                
+    .counter .products .equipment .drei img{
+         /* height: 200px;
+         width: 200px; */
+         height: 30%;
+         width: 60%;
+         }
+                    
+                
+                
+                
+        .counter .products .equipment .drei p{
+            color: black;
+            font-size: 22px;
+            padding: 8px;
+            font-weight: 600;
+            font-family: sans-serif;
+            }
+                    
+    .counter .products .equipment .drei button{
+         width: 80%;
+         height: 40px;
+         font-weight: bold;
+         font-size: 16px;
+         border: 0;
+          outline: 0;
+         border-radius: 3px;
+         color: white;
+         font-family: sans-serif;
+         background-color: rgb(112, 39, 39)}
+                            
+                            
+    .counter .products .equipment .drei button del{
+      background-color: red;
+        color: white;
+        padding: 2px;
+      }
+                  
+
+
+      .counter .products .equipment .feer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+        height: 500px;
+        width: 55%;
+        text-align: center;
+        }
+                    
+                    
+        .counter .products .equipment .feer img{
+             height: 26%;
+             width: 50%;
+             cursor: pointer;
+             }
+                        
+             .counter .products .equipment .feer img:hover{
+                transform: rotateY(180deg);
+                transition: 0.4s linear all;
+             }
+                    
+                    
+            .counter .products .equipment .feer p{
+                color: black;
+                font-size: 22px;
+                padding: 8px;
+                font-weight: 600;
+                font-family: sans-serif;
+                }
+                        
+        .counter .products .equipment .feer button{
+             width: 80%;
+             height: 40px;
+             font-weight: bold;
+             font-size: 16px;
+             border: 0;
+              outline: 0;
+             border-radius: 3px;
+             color: white;
+             font-family: sans-serif;
+             background-color: rgb(112, 39, 39);
+             cursor: pointer;
+        }
+                                
+                        
+        .counter .products .equipment .feer button del{
+          background-color: red;
+            color: white;
+            padding: 2px;
+          }
+
+          .counter .products .equipment .feer a{
+            text-decoration: none;
+            color: white;
+            padding: 8px;
+            background-color: black;
+            color: orange;
+          }
+          .counter .products .equipment {
+            display: flex;
+        justify-content: center;
+        flex-direction: row  ;
+        height: auto;
+        width: auto;
+        /* align-items: center; */
+        gap: 10px;
+        margin-top: 0px;
+        }
+        
+           .counter .products .equipment .german1{
+            display: flex;
+          flex-direction: row;
+          gap: 10px;
+          width: 100%;
+          justify-content:space-between;
+          align-items: center;
+          margin: 0px;
+        }
+        .counter .products .equipment .german2{
+            display: flex;
+          flex-direction: row;
+          gap: 10px;
+          width: 100%;
+          justify-content:center;
+          align-items: center;
+          margin: 0px;
+        } 
+          /* ............................. */
+
+
+
+
+
+    .counter .products .sports .photo1 a,
+    .counter .products .sports .photo2 a,
+    .counter .products .sports .photo3 a,
+    .counter .products .music .img1 a,
+    .counter .products .music .img2 a,
+    .counter .products .music .img3 a,
+    .counter .products .equipment .ince a,
+    .counter .products .equipment .zwai a,
+    .counter .products .equipment .drei a
+    {
+    text-decoration: none;
+    color: orange;
+    padding: 6px;
+    background-color: black;
+    }
+
+    .counter .products .sports .photo1 a:hover,
+    .counter .products .sports .photo2 a:hover,
+    .counter .products .sports .photo3 a:hover,
+    .counter .products .sports .photo4 a:hover,
+    .counter .products .music .img1 a:hover,
+    .counter .products .music .img2 a:hover,
+    .counter .products .music .img3 a:hover,
+    .counter .products .music .img4 a:hover,
+    .counter .products .equipment .ince a:hover,
+    .counter .products .equipment .zwai a:hover,
+    .counter .products .equipment .drei a:hover,
+    .counter .products .equipment .feer a:hover
+    {
+        color: white;
+    }
+
+    .counter .products .sports .photo1 ,
+    .counter .products .sports .photo2 ,
+    .counter .products .sports .photo3 ,
+    .counter .products .sports .photo4,
+    .counter .products .music .img1 ,
+    .counter .products .music .img2 ,
+    .counter .products .music .img3 ,
+    .counter .products .music .img4,
+    .counter .products .equipment .ince ,
+    .counter .products .equipment .zwai ,
+    .counter .products .equipment .drei,
+    .counter .products .equipment .feer 
+{
+background-color: rgb(255, 244, 244);
+}
+
+
+.counter .products .sports .photo1 button ,
+    .counter .products .sports .photo2 button ,
+    .counter .products .sports .photo3 button ,
+    .counter .products .music .img1 button ,
+    .counter .products .music .img2 button ,
+    .counter .products .music .img3 button ,
+    .counter .products .equipment .ince button ,
+    .counter .products .equipment .zwai button ,
+    .counter .products .equipment .drei button{
+   cursor: pointer;
+    }
+
+
+    .counter .products .sports .photo1 button:hover ,
+    .counter .products .sports .photo2 button:hover ,
+    .counter .products .sports .photo3 button:hover ,
+    .counter .products .music .img1 button:hover ,
+    .counter .products .music .img2 button:hover ,
+    .counter .products .music .img3 button:hover ,
+    .counter .products .equipment .ince button:hover ,
+    .counter .products .equipment .zwai button:hover ,
+    .counter .products .equipment .drei button:hover,
+    .counter .products .sports .photo4 button:hover,
+.counter .products .music .img4 button:hover,
+.counter .products .equipment .feer button:hover{
+        background-color: brown;
+        transition: 0.2s linear all;
+    }
+
+.counter .products .sports .photo1 img ,
+.counter .products .sports .photo2 img ,
+.counter .products .sports .photo3 img ,
+.counter .products .music .img1 img ,
+.counter .products .music .img2 img ,
+.counter .products .music .img3 img ,
+.counter .products .equipment .ince img ,
+.counter .products .equipment .zwai img ,
+.counter .products .equipment .drei img {
+    cursor: pointer;
+}
+.counter .products .sports .photo1 img:hover ,
+    .counter .products .sports .photo2 img:hover,
+    .counter .products .sports .photo3 img:hover ,
+    .counter .products .music .img1 img:hover ,
+    .counter .products .music .img2 img:hover ,
+    .counter .products .music .img3 img:hover ,
+    .counter .products .equipment .ince img:hover ,
+    .counter .products .equipment .zwai img:hover ,
+    .counter .products .equipment .drei img:hover
+    {
+        transform: rotateY(180deg);
+        transition: 0.3s linear all;
+    }  
+
+
+
+.counter .products .buttons{
+    width: 100%;
+    background-color: rgb(36, 12, 12);
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.buttons button{
+    
+ 
+ border: 0;
+ outline: 0;
+ color: rgb(255, 255, 255);
+ background-color: transparent;
+ font-size: 18px;
+ cursor: pointer;
+ border-radius: 12px;
+ 
+ }
+ .buttons button:hover{
+    color: red;
+ }
+ .counter .products .buttons .rent{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(36, 12, 12);
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+ }
+
+
+ .counter .products .buttons .rent:hover{
+    font-weight: 600;
+    transition: 0.1.5s linear all;
+ }
+ .counter .products h3{
+    margin: 2px 2px;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 30px;
+    
+ }
+
+.counter .products .sports .photo1,
+.counter .products .sports .photo2,
+.counter .products .sports .photo3,
+.counter .products .music .img1,
+.counter .products .music .img2,
+.counter .products .music .img3,
+.counter .products .equipment .ince,
+.counter .products .equipment .zwai ,
+.counter .products .equipment .drei{
+    text-align: center;
+}
+
+
+
+
+.counter .products .sports ,
+.counter .products .music{
+    margin: 10px;
+}
+
+.counter .products .sports .photo4 button,
+.counter .products .music .img4 button {
+    cursor: pointer;
+}
+
+
+.counter .products .sports .for2 .photo4,
+.counter .products .music .grand2 .img4,
+.counter .products .equipment .german2 .feer
+{
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+@media (min-width:900px) and (max-width:1107px) {
+    .counter .products .equipment .ince p,
+    .counter .products .equipment .zwai p,
+    .counter .products .equipment .drei p
+    {
+        font-size: 18px;
+    }
+    
+    .counter .products .equipment .ince button,
+    .counter .products .equipment .zwai button,
+    .counter .products .equipment .drei button,
+    .counter .products .music .img1 button,
+    .counter .products .music .img2 button,
+    .counter .products .music .img3 button,
+    .counter .products .sports .photo1 button,
+    .counter .products .sports .photo2 button,
+    .counter .products .sports .photo3 button
+
+    {
+        font-size: 14px;
+        width: 70%;
+    }
+    .counter .products .equipment .zwai button{
+        font-size: 14px;
+        width: 70%;
+    }
+    .counter .products .equipment .drei button{
+        font-size: 13px;
+        width: 70%;
+    }
+    .counter .products .equipment,
+    .counter .products .sports ,
+    .counter .products .music
+    {
+       margin: 8px;
+    }
+    .counter .products .sports .photo1 img,
+    .counter .products .sports .photo3 img
+    {
+        height: 190px;
+    }
+
+    .counter .products .sports .photo1 p,
+    .counter .products .sports .photo2 p,
+    .counter .products .sports .photo3 p,
+    .counter .products .music .img1 p,
+    .counter .products .music .img2 p,
+    .counter .products .music .img3 p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width:800px) and (max-width:900px) {
+    .counter .products .equipment .ince p,
+    .counter .products .equipment .zwai p,
+    .counter .products .equipment .drei p
+    {
+        font-size: 18px;
+    }
+    
+    .counter .products .equipment .ince button,
+    .counter .products .equipment .zwai button,
+    .counter .products .equipment .drei button,
+    .counter .products .music .img1 button,
+    .counter .products .music .img2 button,
+    .counter .products .music .img3 button,
+    .counter .products .sports .photo1 button,
+    .counter .products .sports .photo2 button,
+    .counter .products .sports .photo3 button
+
+    {
+        font-size: 14px;
+        width: 70%;
+    }
+    .counter .products .sports .photo2 img{
+        width: 170px;
+        height: 190px;
+    }
+    .counter .products .equipment .zwai button{
+        font-size: 14px;
+        width: 70%;
+    }
+    .counter .products .equipment .drei button{
+        font-size: 13px;
+        width: 70%;
+    }
+    .counter .products .equipment,
+    .counter .products .sports ,
+    .counter .products .music
+    {
+       margin: 8px;
+    }
+    .counter .products .sports .photo1 img,
+    .counter .products .sports .photo3 img
+    {
+        height: 190px;
+    }
+
+    .counter .products .sports .photo1 p,
+    .counter .products .sports .photo2 p,
+    .counter .products .sports .photo3 p,
+    .counter .products .music .img1 p,
+    .counter .products .music .img2 p,
+    .counter .products .music .img3 p{
+        font-size: 18px;
+    }
+}
+
+
+
+@media (min-width:700px) and (max-width:800px) {
+    .counter .products .equipment .ince p,
+    .counter .products .equipment .zwai p,
+    .counter .products .equipment .drei p
+    {
+        font-size: 18px;
+    }
+    
+    .counter .products .equipment .ince button,
+    .counter .products .equipment .zwai button,
+    .counter .products .equipment .drei button,
+    .counter .products .music .img1 button,
+    .counter .products .music .img2 button,
+    .counter .products .music .img3 button,
+    .counter .products .sports .photo1 button,
+    .counter .products .sports .photo2 button,
+    .counter .products .sports .photo3 button
+
+    {
+        font-size: 14px;
+        width: 80%;
+    }
+    .counter .products .sports .photo2 img{
+        width: 170px;
+        height: 190px;
+    }
+    
+    .counter .products .equipment .zwai button{
+        font-size: 14px;
+        width: 80%;
+    }
+    .counter .products .equipment .drei button{
+        font-size: 13px;
+        width: 80%;
+    }
+    .counter .products .equipment,
+    .counter .products .sports ,
+    .counter .products .music
+    {
+       margin: 7px;
+    }
+    .counter .products .sports .photo1 img,
+    .counter .products .sports .photo3 img
+    {
+        height: 190px;
+    }
+
+    .counter .products .sports .photo1 p,
+    .counter .products .sports .photo2 p,
+    .counter .products .sports .photo3 p,
+    .counter .products .music .img1 p,
+    .counter .products .music .img2 p,
+    .counter .products .music .img3 p{
+        font-size: 18px;
+    }
+    .counter .products .sports,
+    .counter .products .music,
+    .counter .products .equipment{
+        gap: 25px;
+    }
+    .counter .products .sports .photo1 img{
+        width: 92%;
+        height: 180px;
+    }
+    .counter .swap1 a{
+        font-size: 24px;
+    }
+    .counter .swap1{
+        gap: 12px;
+    }
+    .counter .swap1 .inp input{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:600px) and (max-width:700px) {
+    .counter .products .equipment .ince p,
+    .counter .products .equipment .zwai p,
+    .counter .products .equipment .drei p
+    {
+        font-size: 18px;
+    }
+    
+    .counter .products .equipment .ince button,
+    .counter .products .equipment .zwai button,
+    .counter .products .equipment .drei button,
+    .counter .products .music .img1 button,
+    .counter .products .music .img2 button,
+    .counter .products .music .img3 button,
+    .counter .products .sports .photo1 button,
+    .counter .products .sports .photo2 button,
+    .counter .products .sports .photo3 button
+
+    {
+        font-size: 14px;
+        width: 80%;
+    }
+    .counter .products .sports .photo2 img{
+        width: 170px;
+        height: 190px;
+    }
+    
+    .counter .products .equipment .zwai button{
+        font-size: 14px;
+        width: 80%;
+    }
+    .counter .products .equipment .drei button{
+        font-size: 13px;
+        width: 80%;
+    }
+    .counter .products .equipment,
+    .counter .products .sports ,
+    .counter .products .music
+    {
+       margin: 7px;
+    }
+    .counter .products .sports .photo1 img,
+    .counter .products .sports .photo3 img
+    {
+        height: 190px;
+    }
+
+    .counter .products .sports .photo1 p,
+    .counter .products .sports .photo2 p,
+    .counter .products .sports .photo3 p,
+    .counter .products .music .img1 p,
+    .counter .products .music .img2 p,
+    .counter .products .music .img3 p{
+        font-size: 18px;
+    }
+    .counter .products .sports,
+    .counter .products .music,
+    .counter .products .equipment{
+        gap: 15px;
+    }
+    .counter .products .sports .photo1 img{
+        width: 92%;
+        height: 180px;
+    }
+    .counter .swap1 a{
+        font-size: 18px;
+        padding: 6px;
+    }
+    .counter .swap1{
+        gap: 1px;
+        justify-content: space-between;
+    }
+    .counter .swap1 .inp input{
+        width: 100%;
+        font-size: 18px;
+    }
+    ::placeholder{
+        font-size: 17px;
+    }
+    .counter .products .music .img2 img
+    {
+        width: 90%;
+        height: 37%;
+    }
+    .counter .products .sports .photo2 {
+        gap: 12px;
+    }
+    .counter .products .equipment .ince img,
+    .counter .products .equipment .zwai img,
+    .counter .products .equipment .drei img{
+        width: 90%;
+        height: 30%;
+    }
+}
+
+
+
+@media (min-width:500px) and (max-width:600px) {
+    .counter .products .equipment .ince p,
+    .counter .products .equipment .zwai p,
+    .counter .products .equipment .drei p
+    {
+        font-size: 18px;
+    }
+    
+    .counter .products .equipment .ince button,
+    .counter .products .equipment .zwai button,
+    .counter .products .equipment .drei button,
+    .counter .products .music .img1 button,
+    .counter .products .music .img2 button,
+    .counter .products .music .img3 button,
+    .counter .products .sports .photo1 button,
+    .counter .products .sports .photo2 button,
+    .counter .products .sports .photo3 button
+
+    {
+        font-size: 14px;
+        width: 80%;
+    }
+    
+    
+    .counter .products .equipment .zwai button{
+        font-size: 14px;
+        width: 80%;
+    }
+    .counter .products .equipment .drei button{
+        font-size: 13px;
+        width: 80%;
+    }
+    .counter .products .equipment,
+    .counter .products .sports ,
+    .counter .products .music
+    {
+       margin: 7px;
+       flex-direction: column;
+    }
+    .counter .products .sports .photo1,
+    .counter .products .sports .photo2,
+    .counter .products .sports .photo3,
+    .counter .products .music .img1,
+    .counter .products .music .img2,
+    .counter .products .music .img3,
+    .counter .products .equipment .ince,
+    .counter .products .equipment .zwai,
+    .counter .products .equipment .drei
+    {
+        width: 80%;
+        border-radius: 8px;
+    }
+
+    .counter .products .equipment .ince img,
+    .counter .products .equipment .zwai img,
+    .counter .products .equipment .drei img{
+        width: 55%;
+        height: 40%;
+    }
+    .counter .products .sports .photo1 img,
+    .counter .products .sports .photo3 img
+    {
+        height: 52%;
+        width: 63%;
+    }
+    .counter .products .sports .photo2 img{
+        height: 40%;
+        width: 50%;
+    }
+
+    .counter .products .sports .photo1 p,
+    .counter .products .sports .photo2 p,
+    .counter .products .sports .photo3 p,
+    .counter .products .music .img1 p,
+    .counter .products .music .img2 p,
+    .counter .products .music .img3 p{
+        font-size: 18px;
+    }
+    .counter .products .sports,
+    .counter .products .music,
+    .counter .products .equipment{
+        gap: 15px;
+    }
+    /* .counter .products .sports .photo1 img{
+        width: 92%;
+        height: 180px;
+    } */
+    .counter .swap1 a{
+        font-size: 18px;
+        padding: 1px;
+    }
+    .counter .swap1{
+        gap: 6px;
+        justify-content: space-between;
+    }
+    .counter .swap1 .inp input{
+        width: 100%;
+        font-size: 18px;
+    }
+    ::placeholder{
+        font-size: 17px;
+    }
+    .counter .products .music .img2 img
+    {
+        width: 60%;
+        height: 44%;
+    }
+    .counter .products .sports .photo2 {
+        gap: 12px;
+    }
+    
+}
+
+
+@media (min-width:400px) and (max-width:500px) {
+    .counter .products .equipment .ince p,
+    .counter .products .equipment .zwai p,
+    .counter .products .equipment .drei p
+    {
+        font-size: 18px;
+    }
+    
+    .counter .products .equipment .ince button,
+    .counter .products .equipment .zwai button,
+    .counter .products .equipment .drei button,
+    .counter .products .music .img1 button,
+    .counter .products .music .img2 button,
+    .counter .products .music .img3 button,
+    .counter .products .sports .photo1 button,
+    .counter .products .sports .photo2 button,
+    .counter .products .sports .photo3 button
+
+    {
+        font-size: 14px;
+        width: 80%;
+    }
+    
+    
+    .counter .products .equipment .zwai button{
+        font-size: 14px;
+        width: 80%;
+    }
+    .counter .products .equipment .drei button{
+        font-size: 13px;
+        width: 80%;
+    }
+    .counter .products .equipment,
+    .counter .products .sports ,
+    .counter .products .music
+    {
+       margin: 7px;
+       flex-direction: column;
+    }
+    .counter .products .sports .photo1,
+    .counter .products .sports .photo2,
+    .counter .products .sports .photo3,
+    .counter .products .music .img1,
+    .counter .products .music .img2,
+    .counter .products .music .img3,
+    .counter .products .equipment .ince,
+    .counter .products .equipment .zwai,
+    .counter .products .equipment .drei
+    {
+        width: 80%;
+        border-radius: 8px;
+    }
+
+    .counter .products .equipment .ince img,
+    .counter .products .equipment .zwai img,
+    .counter .products .equipment .drei img{
+        width: 70%;
+        height: 40%;
+    }
+    
+    .counter .products .sports .photo3 img
+    {
+        height: 45%;
+        width: 55%;
+    }
+    .counter .products .sports .photo1 img{
+        width: 70%;
+    }
+    .counter .products .sports .photo2 img{
+        height: 40%;
+        width: 50%;
+    }
+
+    .counter .products .sports .photo1 p,
+    .counter .products .sports .photo2 p,
+    .counter .products .sports .photo3 p,
+    .counter .products .music .img1 p,
+    .counter .products .music .img2 p,
+    .counter .products .music .img3 p{
+        font-size: 18px;
+    }
+    .counter .products .sports,
+    .counter .products .music,
+    .counter .products .equipment{
+        gap: 15px;
+    }
+    /* .counter .products .sports .photo1 img{
+        width: 92%;
+        height: 180px;
+    } */
+    .counter .swap1 a{
+        font-size: 13.5px;
+        font-weight: bold;
+        padding: 2px;
+    }
+    .counter .swap1{
+        gap: 4px;
+        justify-content: space-around;
+    }
+    .counter .products h3{
+        font-size: 22px;
+    }
+    .counter .swap1 .inp input{
+        width: 100%;
+        font-size: 16px;
+        height: 32px;
+    }
+   
+    .counter .swap1 .inp p img{
+        height: 14px;
+        width: 14px;
+        margin-top: 8px;
+    }
+    .counter .swap1 .inp p{
+        width: 30px;
+        padding: 1px;
+        height: 30px;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+    .counter .products .music .img2 img
+    {
+        width: 60%;
+        height: 44%;
+    }
+    .counter .products .sports .photo2 {
+        gap: 12px;
+    }
+    .counter .swap1 .one{
+        width: 100px;
+        height: 60px;
+    }
+
+    .counter .products .buttons{
+        height: 45px;
+        gap: 5px;
+    }
+
+    .counter .products .buttons button{
+        font-size: 16px;
+    }
+    .counter .products .buttons .jo{
+        color: rgb(248, 248, 143);
+        font-weight: bold;
+        
+
+    }
+    .counter .products .buttons .rent{
+        font-weight: bold;
+       
+    }
+}
+
+
+
+@media (min-width:300px) and (max-width:400px) {
+    .counter .products .equipment .ince p,
+    .counter .products .equipment .zwai p,
+    .counter .products .equipment .drei p
+    {
+        font-size: 16px;
+    }
+    
+    .counter .products .equipment .ince button,
+    .counter .products .equipment .zwai button,
+    .counter .products .equipment .drei button,
+    .counter .products .music .img1 button,
+    .counter .products .music .img2 button,
+    .counter .products .music .img3 button,
+    .counter .products .sports .photo1 button,
+    .counter .products .sports .photo2 button,
+    .counter .products .sports .photo3 button
+
+    {
+        font-size: 14px;
+        width: 80%;
+    }
+    
+    .counter .products .sports .photo1 a,
+    .counter .products .sports .photo2 a,
+    .counter .products .sports .photo3 a,
+    .counter .products .music .img1 a,
+    .counter .products .music .img2 a,
+    .counter .products .music .img3 a,
+    .counter .products .equipment .ince a,
+    .counter .products .equipment .zwai a,
+    .counter .products .equipment .drei a{
+        font-size: 15px;
+    }
+
+    .counter .products .sports .photo1 a:hover,
+    .counter .products .sports .photo2 a:hover,
+    .counter .products .sports .photo3 a:hover,
+    .counter .products .music .img1 a:hover,
+    .counter .products .music .img2 a:hover,
+    .counter .products .music .img3 a:hover,
+    .counter .products .equipment .ince a:hover,
+    .counter .products .equipment .zwai a:hover,
+    .counter .products .equipment .drei a:hover{
+        transition: 0.16s linear all;
+    }
+    .counter .products .equipment .zwai button{
+        font-size: 14px;
+        width: 80%;
+    }
+    .counter .products .equipment .drei button{
+        font-size: 13px;
+        width: 80%;
+    }
+    .counter .products .equipment,
+    .counter .products .sports ,
+    .counter .products .music
+    {
+       margin: 7px;
+       flex-direction: column;
+    }
+    .counter .products .sports .photo1,
+    .counter .products .sports .photo2,
+    .counter .products .sports .photo3,
+    .counter .products .music .img1,
+    .counter .products .music .img2,
+    .counter .products .music .img3,
+    .counter .products .equipment .ince,
+    .counter .products .equipment .zwai,
+    .counter .products .equipment .drei
+    {
+        width: 80%;
+        border-radius: 8px;
+    }
+    
+    .counter .products .equipment .ince img,
+    .counter .products .equipment .zwai img,
+    .counter .products .equipment .drei img{
+        width: 60%;
+        height: 30%;
+    }
+    
+    .counter .products .sports .photo3 img
+    {
+        height: 48%;
+        width: 60%;
+    }
+    .counter .products .sports .photo1 img{
+        width: 80%;
+        height: 45%;
+    }
+    .counter .products .sports .photo2 img{
+        height: 45%;
+        width: 70%;
+    }
+
+    .counter .products .sports .photo1 p,
+    .counter .products .sports .photo2 p,
+    .counter .products .sports .photo3 p,
+    .counter .products .music .img1 p,
+    .counter .products .music .img2 p,
+    .counter .products .music .img3 p{
+        font-size: 16px;
+    }
+    .counter .products .sports,
+    .counter .products .music,
+    .counter .products .equipment{
+        gap: 15px;
+    }
+    /* .counter .products .sports .photo1 img{
+        width: 92%;
+        height: 180px;
+    } */
+    .counter .swap1 a{
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0px;
+    }
+    .counter .swap1{
+        gap: 15px;
+        justify-content: center;
+    }
+    .counter .products h3{
+        font-size: 22px;
+    }
+    .counter .swap1 .inp input{
+        width: 100%;
+        font-size: 14px;
+        height: 32px;
+    }
+   
+    .counter .swap1 .inp p img{
+        height: 12px;
+        width: 12px;
+        margin-top: 9px;
+    }
+    .counter .swap1 .inp p{
+        width: 30px;
+        padding: 1px;
+        height: 30px;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+    .counter .products .music .img2 img
+    {
+        width: 80%;
+        height: 44%;
+    }
+    .counter .products .sports .photo2 {
+        gap: 12px;
+    }
+    .counter .swap1 .one{
+        width: 90px !important;
+        height: 60px !important;
+    }
+
+    .counter .products .buttons{
+        height: 55px;
+        gap: 5px;
+    }
+
+    .counter .products .buttons button{
+        font-size: 15px;
+    }
+    .counter .products .buttons .jo{
+        color: rgb(248, 248, 143);
+        font-weight: bold;
+        
+
+    }
+    .counter .products .buttons .rent{
+        font-weight: bold;
+        width: 75px;
+        height: 80px;
+       
+    }
+    .counter .products .buttons .rent:hover{
+        transition: 0.12s linear all;
+    }
+}
+
+
+
+@media (min-width:200px) and (max-width:300px) {
+    .counter .products .equipment .ince p,
+    .counter .products .equipment .zwai p,
+    .counter .products .equipment .drei p
+    {
+        font-size: 14px;
+    }
+    
+    .counter .products .equipment .ince button,
+    .counter .products .equipment .zwai button,
+    .counter .products .equipment .drei button,
+    .counter .products .music .img1 button,
+    .counter .products .music .img2 button,
+    .counter .products .music .img3 button,
+    .counter .products .sports .photo1 button,
+    .counter .products .sports .photo2 button,
+    .counter .products .sports .photo3 button
+
+    {
+        font-size: 10px;
+        width: 80%;
+        
+    }
+    
+    .counter .products .sports .photo1 a,
+    .counter .products .sports .photo2 a,
+    .counter .products .sports .photo3 a,
+    .counter .products .music .img1 a,
+    .counter .products .music .img2 a,
+    .counter .products .music .img3 a,
+    .counter .products .equipment .ince a,
+    .counter .products .equipment .zwai a,
+    .counter .products .equipment .drei a{
+        font-size: 11px;
+    }
+
+    .counter .products .sports .photo1 a:hover,
+    .counter .products .sports .photo2 a:hover,
+    .counter .products .sports .photo3 a:hover,
+    .counter .products .music .img1 a:hover,
+    .counter .products .music .img2 a:hover,
+    .counter .products .music .img3 a:hover,
+    .counter .products .equipment .ince a:hover,
+    .counter .products .equipment .zwai a:hover,
+    .counter .products .equipment .drei a:hover{
+        transition: 0.16s linear all;
+    }
+    .counter .products .equipment .zwai button{
+        font-size: 11px;
+        width: 90%;
+    }
+    .counter .products .equipment .drei button{
+        font-size: 10px;
+        width: 94%;
+        
+    }
+    .counter .products .equipment,
+    .counter .products .sports ,
+    .counter .products .music
+    {
+       margin: 7px;
+       flex-direction: column;
+    }
+    .counter .products .sports .photo1,
+    .counter .products .sports .photo2,
+    .counter .products .sports .photo3,
+    .counter .products .music .img1,
+    .counter .products .music .img2,
+    .counter .products .music .img3,
+    .counter .products .equipment .ince,
+    .counter .products .equipment .zwai,
+    .counter .products .equipment .drei
+    {
+        width: 80%;
+        border-radius: 8px;
+        height: 400px;
+    }
+    
+    .counter .products .equipment .ince img,
+    .counter .products .equipment .zwai img,
+    .counter .products .equipment .drei img{
+        width: 60%;
+        height: 30%;
+    }
+    
+    .counter .products .sports .photo3 img
+    {
+        height: 35%;
+        width: 65%;
+    }
+    .counter .products .sports .photo1,
+    .counter .products .sports .photo2,
+    .counter .products .sports .photo3{
+        gap: 5px;
+    }
+    .counter .products .music .img3 img{
+        height: 40%;
+        width: 70%;
+    }
+    .counter .products .sports .photo1 img{
+        width: 80%;
+        height: 35%;
+    }
+    .counter .products .sports .photo2 img{
+        height: 40%;
+        width: 80%;
+    }
+
+    .counter .products .sports .photo1 p,
+    .counter .products .sports .photo2 p,
+    .counter .products .sports .photo3 p,
+    .counter .products .music .img1 p,
+    .counter .products .music .img2 p,
+    .counter .products .music .img3 p{
+        font-size: 14px;
+    }
+    .counter .products .sports,
+    .counter .products .music,
+    .counter .products .equipment{
+        gap: 15px;
+    }
+    /* .counter .products .sports .photo1 img{
+        width: 92%;
+        height: 180px;
+    } */
+    .counter .swap1 a{
+        font-size: 10px;
+        font-weight: bold;
+        padding: 1px;
+    }
+    .counter .swap1 .help{
+        display: none;
+    }
+    .counter .swap1{
+        gap: 4px;
+        justify-content: center;
+    }
+    .counter .products h3{
+        font-size: 20px;
+    }
+    .counter .swap1 .inp input{
+        width: 100%;
+        font-size: 10px;
+        height: 28px;
+    }
+   
+    .counter .swap1 .inp p img{
+        height: 8px;
+        width: 8px;
+        margin-top: 9px;
+    }
+    .counter .swap1 .inp p{
+        width: 24px;
+        padding: 2px;
+        height: 24px;
+    }
+    ::placeholder{
+        font-size: 10px;
+    }
+    .counter .products .music .img2 img
+    {
+        width: 80%;
+        height: 44%;
+    }
+    .counter .products .sports .photo2 {
+        gap: 12px;
+    }
+    .counter .swap1 .one{
+        width: 40px;
+        height: 18px;
+    }
+  
+    .counter .products .buttons{
+        height: 35px;
+        gap: 1px;
+    }
+
+    .counter .products .buttons button{
+        font-size: 10px;
+    }
+    .counter .products .buttons .jo{
+        color: rgb(248, 248, 143);
+        font-weight: bold;
+        
+
+    }
+    .counter .products .buttons .rent{
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+       
+    }
+    .counter .products .music .img1 .mo{
+        height: 46%;
+        width: 90%;
+    }
+    .counter .products .buttons .rent:hover{
+        transition: 0.12s linear all;
+    }
+    .counter .products .buttons .aqua{
+        display: none; 
+    }
+    .counter .products h3{
+        font-size: 20px;
+    }
+}
+
+
+
+@media (min-width:150px) and (max-width:200px) {
+    .counter .products .equipment .ince p,
+    .counter .products .equipment .zwai p,
+    .counter .products .equipment .drei p
+    {
+        font-size: 14px;
+    }
+    
+    .counter .products .equipment .ince button,
+    .counter .products .equipment .zwai button,
+    .counter .products .equipment .drei button,
+    .counter .products .music .img1 button,
+    .counter .products .music .img2 button,
+    .counter .products .music .img3 button,
+    .counter .products .sports .photo1 button,
+    .counter .products .sports .photo2 button,
+    .counter .products .sports .photo3 button
+
+    {
+        font-size: 10px;
+        width: 80%;
+        
+    }
+    
+    .counter .products .sports .photo1 a,
+    .counter .products .sports .photo2 a,
+    .counter .products .sports .photo3 a,
+    .counter .products .music .img1 a,
+    .counter .products .music .img2 a,
+    .counter .products .music .img3 a,
+    .counter .products .equipment .ince a,
+    .counter .products .equipment .zwai a,
+    .counter .products .equipment .drei a{
+        font-size: 11px;
+    }
+
+    .counter .products .sports .photo1 a:hover,
+    .counter .products .sports .photo2 a:hover,
+    .counter .products .sports .photo3 a:hover,
+    .counter .products .music .img1 a:hover,
+    .counter .products .music .img2 a:hover,
+    .counter .products .music .img3 a:hover,
+    .counter .products .equipment .ince a:hover,
+    .counter .products .equipment .zwai a:hover,
+    .counter .products .equipment .drei a:hover{
+        transition: 0.16s linear all;
+    }
+    .counter .products .equipment .zwai button{
+        font-size: 11px;
+        width: 90%;
+    }
+    .counter .products .equipment .drei button{
+        font-size: 10px;
+        width: 94%;
+        
+    }
+    .counter .products .equipment,
+    .counter .products .sports ,
+    .counter .products .music
+    {
+       margin: 7px;
+       flex-direction: column;
+    }
+    .counter .products .sports .photo1,
+    .counter .products .sports .photo2,
+    .counter .products .sports .photo3,
+    .counter .products .music .img1,
+    .counter .products .music .img2,
+    .counter .products .music .img3,
+    .counter .products .equipment .ince,
+    .counter .products .equipment .zwai,
+    .counter .products .equipment .drei
+    {
+        width: 80%;
+        border-radius: 8px;
+        height: 400px;
+    }
+    
+    .counter .products .equipment .ince img,
+    .counter .products .equipment .zwai img,
+    .counter .products .equipment .drei img{
+        width: 70%;
+        height: 20%;
+    }
+    
+    .counter .products .sports .photo3 img
+    {
+        height: 35%;
+        width: 65%;
+    }
+    .counter .products .sports .photo1,
+    .counter .products .sports .photo2,
+    .counter .products .sports .photo3{
+        gap: 5px;
+    }
+    .counter .products .music .img3 img{
+        height: 40%;
+        width: 70%;
+    }
+    .counter .products .sports .photo1 img{
+        width: 80%;
+        height: 26%;
+    }
+    .counter .products .sports .photo2 img{
+        height: 30%;
+        width: 80%;
+    }
+
+    .counter .products .sports .photo1 p,
+    .counter .products .sports .photo2 p,
+    .counter .products .sports .photo3 p,
+    .counter .products .music .img1 p,
+    .counter .products .music .img2 p,
+    .counter .products .music .img3 p{
+        font-size: 11px;
+    }
+    .counter .products .sports,
+    .counter .products .music,
+    .counter .products .equipment{
+        gap: 15px;
+    }
+    /* .counter .products .sports .photo1 img{
+        width: 92%;
+        height: 180px;
+    } */
+    .counter .swap1 a{
+        font-size: 10px;
+        font-weight: bold;
+        padding: 1px;
+    }
+    .counter .swap1 .help{
+        display: none;
+    }
+    .counter .swap1{
+        gap: 4px;
+        justify-content: center;
+    }
+   
+    .counter .swap1 .inp input{
+        width: 100%;
+        font-size: 10px;
+        height: 28px;
+    }
+   
+    .counter .swap1 .inp p img{
+        height: 8px;
+        width: 8px;
+        margin-top: 9px;
+    }
+    .counter .swap1 .inp p{
+        width: 24px;
+        padding: 2px;
+        height: 24px;
+    }
+    ::placeholder{
+        font-size: 8px;
+    }
+    .counter .products .music .img2 img
+    {
+        width: 80%;
+        height: 44%;
+    }
+    .counter .products .sports .photo2 {
+        gap: 12px;
+    }
+    .counter .swap1 .one{
+       display: none;
+    }
+
+    .counter .products .buttons{
+        height: 35px;
+        gap: 1px;
+    }
+
+    .counter .products .buttons button{
+        font-size: 10px;
+    }
+    .counter .products .buttons .jo{
+        color: rgb(248, 248, 143);
+        font-weight: bold;
+        
+
+    }
+    .counter .products .buttons .rent{
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+       
+    }
+    .counter .products .music .img1 .mo{
+        height: 40%;
+        width: 90%;
+    }
+    .counter .products .buttons .rent:hover{
+        transition: 0.12s linear all;
+    }
+    .counter .products .buttons .aqua{
+        display: none; 
+    }
+    .counter .products h3{
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width:1000px) and (max-width:1107px){
+    .counter .products .sports{
+        width: 100%;
+        gap: 10px;
+        margin: 5px;
+    }
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .sports .for1 .photo1{
+     width: 50%;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+    }
+    .counter .products .sports .for1 .photo1 img{
+    height:  30%;
+    width: 60%;
+    }
+    .counter .products .sports .for1 .photo1 p{
+        font-size: 19px;
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 40%;
+   width: 70%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 80%;
+     font-size: 12px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 50%;
+    gap: 12px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 50%;
+        gap: 15px;
+    }
+    .counter .products .sports .for2 .photo3 img{
+    width: 60%;
+    height: 35%;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 16px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 60%;
+        height: 32%;
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 18px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        margin: 1px;
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 50%;
+        gap: 15px;
+    }
+     
+    .counter .products .music .grand1 .img2{
+        width: 50%;
+        gap: 15px;
+    }
+    .counter .products .music .grand2 .img3{
+       width: 50%;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 50%;
+        gap: 12px;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 20px;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 80%;
+        height: 30%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        
+        
+    }
+    .counter .products .music .german1,
+    .counter .products .music .german2{
+        gap: 2px;
+        width: 100%;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 50%;
+        gap: 8px;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 50%;
+        gap: 8px;
+    }
+    .counter .products .equipment .german2 .drei{
+       width: 50%;
+       gap: 8px;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 50%;
+        gap: 5px;
+    }
+    .counter .products .equipment .german2 .feer p{
+        font-size: 16px;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 80%;
+        height: 30%;
+    }
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width: 70%;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 70%;
+    height: 35%;
+  }
+  .counter .products .equipment .german2 .drei img{
+    height: 36%;
+    width: 80%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 32%;
+    width: 80%;
+  }
+
+    .counter .products h3{
+        font-size: 30px;
+        text-align: start;
+    }
+
+}
+
+@media (min-width:900px) and (max-width:1000px){
+    .counter .products .sports{
+        width: 100%;
+        gap: 10px;
+        margin: 5px;
+    }
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .sports .for1 .photo1{
+     width: 50%;
+     gap: 11px;
+    }
+    
+    .counter .products .sports .for1 .photo2 a{
+        font-size: 16px;
+    }
+    .counter .products .sports .for1 .photo1 img{
+    height:  30%;
+    width: 70%;
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 36%;
+   width: 70%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 90%;
+     font-size: 12px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+        gap: 11px;
+    }
+    .counter .products .sports .for1 .photo2 p{
+        font-size: 20px;
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 50%;
+    gap: 5px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 50%;
+        gap: 8px;
+    }
+    .counter .products .sports .for2 .photo3 img{
+    width: 60%;
+    height: 35%;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 16px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 65%;
+        height: 32%;
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 17px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 90%;
+        font-size: 12px;
+    }
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        margin: 1px;
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 50%;
+        gap: 15px;
+    }
+     .counter .products .music .grand1 .img1 p{
+        font-size: 19px;
+     }
+    .counter .products .music .grand1 .img2{
+        width: 50%;
+        gap: 16px;
+    }
+    .counter .products .music .grand2 .img3{
+       width: 50%;
+       gap: 14px;
+    }
+    .counter .products .music .grand2 .img3 p{
+        font-size: 20px;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 50%;
+        gap: 13px;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 19px;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 38%;
+        width: 60%;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 90%;
+        height:31%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        
+        
+    }
+    .counter .products .music .german1,
+    .counter .products .music .german2{
+        gap: 2px;
+        width: 100%;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 50%;
+        gap: 8px;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 50%;
+        gap: 8px;
+    }
+    .counter .products .equipment .german2 .drei{
+       width: 50%;
+       gap: 8px;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 50%;
+        gap: 5px;
+    }
+    .counter .products .equipment .german2 .feer p{
+        font-size: 16px;
+    }
+    
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width: 70%;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 70%;
+    height: 35%;
+  }
+  .counter .products .equipment .german2 .drei img{
+    height: 36%;
+    width: 80%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 32%;
+    width: 80%;
+  }
+
+    .counter .products h3{
+        font-size: 30px;
+        text-align: start;
+    }
+
+}
+
+@media (min-width:800px) and (max-width:900px){
+    .counter .products .sports{
+        width: 100%;
+        gap: 10px;
+        
+    }
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .sports .for1 .photo1{
+     width: 50%;
+    
+     gap: 11px;
+    }
+    
+    .counter .products .sports .for1 .photo2 a{
+        font-size: 16px;
+    }
+    .counter .products .sports .for1 .photo1 img{
+    height:  30%;
+    width: 80%;
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 36%;
+   width: 75%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 80%;
+     font-size: 12px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+        gap: 14px;
+    }
+    .counter .products .sports .for1 .photo2 p{
+        font-size: 19px;
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 50%;
+    gap: 9px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 50%;
+        gap: 12px;
+    }
+   
+    .counter .products .sports .for2 .photo3 img{
+    width: 60%;
+    height: 35%;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 16px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 70%;
+        height: 38%;
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 16px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 80%;
+        font-size: 12px;
+    }
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        margin: 1px;
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand1 .img1 img{
+            width: 90%;
+            height: 40%;
+    }
+     .counter .products .music .grand1 .img1 p{
+        font-size: 19px;
+     }
+    .counter .products .music .grand1 .img2{
+        width: 50%;
+        gap: 12px;
+    }
+    .counter .products .music .grand1 .img2 img{
+        width: 80%;
+        height: 39%;
+    }
+    .counter .products .music .grand2 .img3{
+       width: 50%;
+       gap: 12px;
+    }
+    .counter .products .music .grand2 .img3 p{
+        font-size: 21px;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 20px;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 38%;
+        width: 60%;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 95%;
+        height:32%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 80%;
+        font-size: 12px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        
+        
+    }
+    .counter .products .music .german1,
+    .counter .products .music .german2{
+        gap: 2px;
+        width: 100%;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 50%;
+        gap: 8px;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 50%;
+        gap: 8px;
+    }
+    .counter .products .equipment .german2 .drei{
+       width: 50%;
+       gap: 6px;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 50%;
+        gap: 4px;
+    }
+    .counter .products .equipment .german2 .feer p{
+        font-size: 16px;
+    }
+    
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 80%;
+        font-size: 12px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width: 80%;
+    height: 30%;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 80%;
+    height: 30%;
+  }
+  .counter .products .equipment .german2 .drei img{
+    height: 32%;
+    width: 85%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 28%;
+    width: 85%;
+  }
+
+    .counter .products h3{
+        font-size: 25px;
+        text-align: start;
+    }
+
+}
+
+@media (min-width:700px) and (max-width:800px){
+    .counter .products .sports{
+        width: 100%;
+        gap: 10px;
+        
+    }
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .sports .for1 .photo1{
+     width: 50%;
+    
+     gap: 11px;
+    }
+    
+    .counter .products .sports .for1 .photo2 a{
+        font-size: 16px;
+    }
+    .counter .products .sports .for1 .photo1 img{
+    height:  27%;
+    width: 85%;
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 32%;
+   width: 80%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 90%;
+     font-size: 11px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+        gap: 12px;
+    }
+    .counter .products .sports .for1 .photo2 p{
+        font-size: 21px;
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 50%;
+    gap: 9px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 50%;
+        gap: 10px;
+    }
+   
+    .counter .products .sports .for2 .photo3 img{
+    width: 60%;
+    height: 35%;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 16px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 80%;
+        height: 34.5%;
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 16px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 90%;
+        font-size: 11px;
+    }
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand1 .img1 img{
+            width: 90%;
+            height: 38%;
+    }
+     .counter .products .music .grand1 .img1 p{
+        font-size: 17px;
+     }
+    .counter .products .music .grand1 .img2{
+        width: 50%;
+        gap: 12px;
+    }
+    .counter .products .music .grand1 .img2 img{
+        width: 85%;
+        height: 32%;
+    }
+    .counter .products .music .grand2 .img3{
+       width: 50%;
+       gap: 12px;
+    }
+    .counter .products .music .grand2 .img3 p{
+        font-size: 18px;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 50%;
+        gap: 9px;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 18px;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 37%;
+        width: 80%;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 94%;
+        height:27%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 90%;
+        font-size: 11px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        
+        
+    }
+    .counter .products .music .german1,
+    .counter .products .music .german2{
+        gap: 2px;
+        width: 100%;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 50%;
+        gap: 8px;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 50%;
+        gap: 8px;
+    }
+    .counter .products .equipment .german2 .drei{
+       width: 50%;
+       gap: 8px;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 50%;
+        gap: 8px;
+    }
+    .counter .products .equipment .german2 .feer p{
+        font-size: 15px;
+    }
+    
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 90%;
+        font-size: 11px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width: 80%;
+    height: 28%;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 90%;
+    height: 32%;
+  }
+  .counter .products .equipment .german2 .drei img{
+    height: 28%;
+    width: 84%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 23%;
+    width: 75%;
+  }
+
+    .counter .products h3{
+        font-size: 25px;
+        text-align: start;
+    }
+
+}
+
+
+
+@media (min-width:600px) and (max-width:700px){
+    .counter .products .sports{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+        gap: 15px;
+        width: 100%;
+    }
+    .counter .products .sports .for1 .photo1{
+     width: 50%;
+    
+     gap: 10px;
+    }
+    .counter .products .sports .for1 .photo1 p{
+        font-size: 22px;
+    }
+    .counter .products .sports .for1 .photo2 a{
+        font-size: 16px;
+    }
+    .counter .products .sports .for1 .photo1 img{
+    height:  34%;
+    width: 65%;
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 43%;
+   width: 64%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 80%;
+     font-size: 15px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .sports .for1 .photo2 p{
+        font-size: 23px;
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 50%;
+    gap: 10px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 50%;
+        gap: 10px;
+    }
+   
+    .counter .products .sports .for2 .photo3 img{
+    width: 60%;
+    height: 39%;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 19px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 80%;
+        height: 38%;
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 21px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 15px;
+        width: 100%;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand1 .img1 img{
+            width: 70%;
+            height: 42%;
+    }
+     .counter .products .music .grand1 .img1 p{
+        font-size: 22px;
+     }
+    .counter .products .music .grand1 .img2{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand1 .img2 img{
+        width: 80%;
+        height: 45%;
+    }
+    .counter .products .music .grand1 .img2 p{
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .counter .products .music .grand2 .img3{
+       width: 50%;
+       gap: 10px;
+    }
+    .counter .products .music .grand2 .img3 p{
+        font-size: 20px;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 20px;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 40%;
+        width: 70%;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 94%;
+        height:35%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .german1,
+    .counter .products .music .german2{
+        
+        gap: 2px;
+        width: 100%;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 50%;
+        gap: 10px;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .equipment .german2 .drei{
+       width: 50%;
+       gap: 10px;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 50%;
+        gap: 10px;
+    }
+    
+    
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width: 75%;
+    height: 35%;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 75%;
+    height: 35%;
+  }
+  .counter .products .equipment .german1 .ince p,
+  .counter .products .equipment .german1 .zwai p,
+  .counter .products .equipment .german2 .drei p,
+  .counter .equipment .equipment .german2 .feer p{
+    font-size: 22px;
+  }
+  .counter .products .equipment .german2 .drei img{
+    height: 35%;
+    width: 65%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 24%;
+    width: 50%;
+  }
+
+    .counter .products h3{
+        font-size: 25px;
+        text-align: start;
+        color: rgb(170, 35, 35);
+    }
+
+}
+
+
+@media (min-width:500px) and (max-width:600px){
+    .counter .swap1 a{
+        padding: 3px 7px;
+    }
+    .counter .products .sports{
+        width: 100%;
+        gap: 50px;
+        flex-direction: column;
+        
+    }
+   
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+        gap: 15px;
+        width: 100%;
+    }
+    .counter .products .sports .for1 .photo1{
+     width: 50%;
+    
+     gap: 10px;
+    }
+    .counter .products .sports .for1 .photo1 p{
+        font-size: 20px;
+    }
+    
+    .counter .products .sports .for1 .photo1 img{
+    height:  32%;
+    width: 70%;
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 38%;
+   width: 68%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 80%;
+     font-size: 15px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .sports .for1 .photo2 p{
+        font-size: 23px;
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 50%;
+    gap: 10px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 50%;
+        gap: 10px;
+    }
+   
+    .counter .products .sports .for2 .photo3 img{
+    width: 60%;
+    height: 32%;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 19px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 80%;
+        height: 36%;
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 20px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 80%;
+        font-size: 15px;
+    }
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 15px;
+        width: 100%;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand1 .img1 img{
+            width: 70%;
+            height: 40%;
+    }
+     .counter .products .music .grand1 .img1 p{
+        font-size: 20px;
+     }
+    .counter .products .music .grand1 .img2{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand1 .img2 img{
+        width: 80%;
+        height: 41%;
+    }
+    .counter .products .music .grand1 .img2 p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .counter .products .music .grand2 .img3{
+       width: 50%;
+       gap: 10px;
+    }
+    .counter .products .music .grand2 .img3 p{
+        font-size: 20px;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 20px;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 42%;
+        width: 80%;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 94%;
+        height:32%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .german1,
+    .counter .products .music .german2{
+        
+        gap: 2px;
+        width: 100%;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 50%;
+        gap: 10px;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .equipment .german2 .drei{
+       width: 50%;
+       gap: 10px;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 50%;
+        gap: 10px;
+    }
+    
+    
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 80%;
+        font-size: 14px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width: 65%;
+    height: 35%;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 75%;
+    height: 35%;
+  }
+  .counter .products .equipment .german1 .ince p,
+  .counter .products .equipment .german1 .zwai p,
+  .counter .products .equipment .german2 .drei p,
+  .counter .products .equipment .german2 .feer p{
+    font-size: 20px;
+  }
+  
+  .counter .products .equipment .german2 .drei img{
+    height: 36%;
+    width: 70%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 26%;
+    width: 68%;
+  }
+
+    .counter .products h3{
+        font-size: 25px;
+        text-align: start;
+        color: rgb(170, 35, 35);
+    }
+  .counter .products .buttons .rent{
+    transform: translate(6px,-4px);
+  }
+}
+
+
+@media (min-width:400px) and (max-width:500px){
+    .counter .swap1 a{
+        padding: 3px 7px;
+    }
+    .counter .products .sports{
+        width: 100%;
+        gap: 50px;
+        flex-direction: column;
+        
+    }
+   
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+        gap: 15px;
+        width: 100%;
+    }
+    .counter .products .sports .for1 .photo1{
+     width: 50%;
+    
+     gap: 10px;
+    }
+    .counter .products .sports .for1 .photo1 p{
+        font-size: 16px;
+    }
+    
+    .counter .products .sports .for1 .photo1 img{
+    height:  25%;
+    width: 70%;
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 30%;
+   width: 74%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 80%;
+     font-size: 12px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .sports .for1 .photo2 p{
+        font-size: 18px;
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 50%;
+    gap: 10px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 50%;
+        gap: 10px;
+    }
+   
+    .counter .products .sports .for2 .photo3 img{
+    width: 70%;
+    height: 28%;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 18px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 80%;
+        height: 30%;
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 17px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 80%;
+        font-size: 12px;
+    }
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 15px;
+        width: 100%;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand1 .img1 img{
+            width: 80%;
+            height: 38%;
+    }
+     .counter .products .music .grand1 .img1 p{
+        font-size: 20px;
+     }
+    .counter .products .music .grand1 .img2{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand1 .img2 img{
+        width: 80%;
+        height: 40%;
+    }
+    .counter .products .music .grand1 .img2 p{
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .counter .products .music .grand2 .img3{
+       width: 50%;
+       gap: 10px;
+    }
+    .counter .products .music .grand2 .img3 p{
+        font-size: 20px;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 18px;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 36%;
+        width: 80%;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 94%;
+        height:30%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 80%;
+        font-size: 12px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .german1,
+    .counter .products .music .german2{
+        
+        gap: 2px;
+        width: 100%;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 50%;
+        gap: 10px;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 50%;
+        gap: 10px;
+    }
+    .counter .products .equipment .german2 .drei{
+       width: 50%;
+       gap: 10px;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 50%;
+        gap: 10px;
+    }
+    
+    
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 80%;
+        font-size: 12px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width:70%;
+    height: 30%;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 80%;
+    height: 31%;
+  }
+  .counter .products .equipment .german1 .ince p,
+  .counter .products .equipment .german1 .zwai p,
+  .counter .products .equipment .german2 .drei p
+ {
+    font-size: 18px;
+  }
+  
+  .counter .products .equipment .german2 .drei img{
+    height: 30%;
+    width: 80%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 24%;
+    width: 70%;
+  }
+  .counter .products .equipment .german2 .feer p{
+font-size: 16px;
+font-weight: bold;
+  }
+
+    .counter .products h3{
+        font-size: 25px;
+        text-align: start;
+        color: rgb(170, 35, 35);
+    }
+  .counter .products .buttons .rent{
+    transform: translate(6px,-4px);
+  }
+}
+@media (min-width:300px) and (max-width:400px){
+    .counter .swap1 a{
+        padding: 3px 0px;
+    }
+   
+   .counter .swap1{
+    gap: 7px;
+   }
+   .counter .swap1 .one{
+    height: 60px;
+    width: 100px;
+   }
+   .counter .products .sports{
+    width: 100%;
+    gap: 50px;
+    flex-direction: column;
+    
+}
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+     gap: 5px;
+        width: 100%; 
+       
+    }
+    .counter .products .sports .for1 .photo1{
+      width: 50%;
+     gap: 4px;
+     height: auto;
+     padding: 18px 0; 
+     
+    }
+    .counter .products .sports .for1 .photo1 p{
+        font-size: 14px;
+    }
+    
+    .counter .products .sports .for1 .photo1 img{
+     height: 29%;
+    width: 85%; 
+    
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 128px;
+   width: 80%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 90%;
+     font-size: 11px;
+     
+    }
+    .counter .products .sports .for1 .photo1 a,
+    .counter .products .sports .for1 .photo2 a{
+        font-size: 12px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+     gap: 4px;
+     height: auto;
+     padding: 18px 0;
+    }
+    .counter .products .sports .for1 .photo2 p{
+        font-size: 18px;
+        
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 50%;
+    gap: 6px;
+    height: auto;
+    padding: 12px 0;
+    }
+    .counter .products .sports .for2 .photo3 a,
+    .counter .products .sports .for2 .photo4 a{
+        font-size: 12px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 50%;
+        gap: 6px;
+        height: auto;
+        padding: 12px 0;
+    }
+   
+    .counter .products .sports .for2 .photo3 img{
+    width: 80%;
+    height: 140px;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 15px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 90%;
+        height: 130px
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 16px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 85%;
+        font-size: 11px;
+    }
+
+    .counter .products .music 
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 50%;
+        gap: 6px;
+        height: auto;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand1 .img1 img{
+            width: 100%;
+            height: 180px;
+    }
+     .counter .products .music .grand1 .img1 p{
+        font-size: 12px;
+     }
+    .counter .products .music .grand1 .img2{
+        width: 50%;
+        gap: 6px;
+        height: auto;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand1 .img2 img{
+        width: 84%;
+        height: 162px;
+    }
+    .counter .products .music .grand1 .img2 p{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .counter .products .music .grand2 .img3{
+       width: 50%;
+       gap: 5px;
+       padding: 12px 0;
+       height: auto;
+    }
+    .counter .products .music .grand1 .img1 a,
+    .counter .products .music .grand1 .img2 a,
+    .counter .products .music .grand2 .img3 a,
+    .counter .products .music .grand2 .img4 a
+    {
+        font-size: 12px;
+    }
+    .counter .products .music .grand2 .img3 p{
+        font-size: 20px;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 50%;
+        gap: 5px;
+        padding: 12px 0;
+        height: auto;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 18px;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 160px;
+        width: 90%;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 94%;
+        height:30%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 85%;
+        font-size: 11px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .german1,
+    .counter .products .music .german2{
+        
+        gap: 2px;
+        width: 100%;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 50%;
+        gap: 10px;
+        padding: 12px 0;
+        height: auto;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 50%;
+        gap: 10px;
+        padding: 12px 0;
+        height: auto;
+    }
+    .counter .products .equipment .german2 .drei{
+       width: 50%;
+       gap: 10px;
+       height: 450px;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 50%;
+        gap: 10px;
+        height: 450px;
+    }
+    
+    
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 85%;
+        font-size: 11px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width:80%;
+    height: 130px;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 90%;
+    height: 130px;
+  }
+  .counter .products .equipment .german1 .ince p,
+  .counter .products .equipment .german1 .zwai p,
+  .counter .products .equipment .german2 .drei p
+ {
+    font-size: 16px;
+  }
+  
+  .counter .products .equipment .german2 .drei img{
+    height: 26%;
+    width: 80%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 20%;
+    width: 74%;
+  }
+  .counter .products .equipment .german2 .feer p{
+font-size: 15px;
+font-weight: bold;
+  }
+.counter .products .equipment .german1 .ince a,
+.counter .products .equipment .german1 .zwai a,
+.counter .products .equipment .german2 .drei a,
+.counter .products .equipment .german2 .feer a{
+    font-size: 12px;
+    padding: 5px;
+}
+
+    .counter .products h3{
+        font-size: 20px;
+        text-align: center;
+        color: rgb(170, 35, 35);
+    }
+  .counter .products .buttons .rent{
+    transform: translate(6px,5px);
+  }
+  .counter .products .buttons{
+    height: 45px;
+  }
+}
+
+@media (min-width:200px) and (max-width:300px){
+    .counter .swap1 a{
+        padding: 3px 0px;
+    }
+   
+   .counter .swap1{
+    gap: 7px;
+   }
+   .counter .products .sports{
+    width: 100%;
+    gap: 50px;
+    flex-direction: column;
+    
+}
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .sports .for1 .photo1{
+     width: 50%;
+     gap: 8px;
+     padding: 12px 0;
+     justify-content: space-between;
+    }
+    .counter .products .sports .for1 .photo1 p{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .counter .products .sports .for1 .photo1 img{
+    height: 26%;
+    width: 80%;
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 34%;
+   width: 90%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 85%;
+     font-size: 9px;
+     
+     
+    }
+    .counter .products .sports .for1 .photo1 a,
+    .counter .products .sports .for1 .photo2 a{
+        font-size: 12px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 50%;
+     gap: 8px;
+    padding: 12px 0;
+    justify-content: space-between;
+    }
+    .counter .products .sports .for1 .photo2 p{
+        font-size: 16px;
+        
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 50%;
+    gap: 6px;
+   
+    justify-content: center;
+    padding: 12px 0;
+    }
+    .counter .products .sports .for2 .photo3 a,
+    .counter .products .sports .for2 .photo4 a{
+        font-size: 12px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 50%;
+        gap: 6px;
+        height: 400px;
+        padding: 12px 0;
+        justify-content: center;
+    }
+   
+    .counter .products .sports .for2 .photo3 img{
+    width: 80%;
+    height: 140px;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 10px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 90%;
+        height: 130px
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 12px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 85%;
+        font-size: 10px;
+    }
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 5px;
+        width: 100%;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 50%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand1 .img1 img{
+            width: 100%;
+            height: 150px;
+    }
+     .counter .products .music .grand1 .img1 p{
+        font-size: 16px;
+     }
+    .counter .products .music .grand1 .img2{
+        width: 50%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand1 .img2 img{
+        width: 84%;
+        height: 160px;
+    }
+    .counter .products .music .grand1 .img2 p{
+        font-size: 16px;
+       
+    }
+    .counter .products .music .grand2 .img3{
+        width: 50%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand1 .img1 a,
+    .counter .products .music .grand1 .img2 a,
+    .counter .products .music .grand2 .img3 a,
+    .counter .products .music .grand2 .img4 a
+    {
+        font-size: 12px;
+    }
+    .counter .products .music .grand2 .img3 p{
+        font-size: 14px;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 50%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 14px;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 150px;
+        width: 100%;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 100%;
+        height:26%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 85%;
+        font-size: 11px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .german1,
+    .counter .products .music .german2{
+        
+        gap: 2px;
+        width: 100%;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 50%;
+        gap: 6px;
+        height: 350px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 50%;
+        gap: 6px;
+        height: 350px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .equipment .german2 .drei{
+        width: 50%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 50%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    
+    
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 95%;
+        font-size: 11px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width:95%;
+    height: 98px;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 100%;
+    height: 115px;
+  }
+  .counter .products .equipment .german1 .ince p,
+  .counter .products .equipment .german1 .zwai p,
+  .counter .products .equipment .german2 .drei p
+ {
+    font-size: 16px;
+  }
+  
+  .counter .products .equipment .german2 .drei img{
+    height: 24%;
+    width: 90%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 18%;
+    width: 90%;
+  }
+  .counter .products .equipment .german2 .feer p{
+font-size: 12.5px;
+font-weight:bold;
+  }
+.counter .products .equipment .german1 .ince a,
+.counter .products .equipment .german1 .zwai a,
+.counter .products .equipment .german2 .drei a,
+.counter .products .equipment .german2 .feer a{
+    font-size: 12px;
+    padding: 5px;
+}
+
+    .counter .products h3{
+        font-size: 20px;
+        text-align: center;
+        color: rgb(170, 35, 35);
+    }
+  .counter .products .buttons .rent{
+    transform: translate(6px,0px);
+  }
+  .counter{
+    overflow: hidden;
+  }
+}
+@media (min-width:150px) and (max-width:200px){
+    .counter .swap1 a{
+        padding: 3px 0px;
+    }
+   
+   .counter .swap1{
+    gap: 7px;
+   }
+   .counter .products .sports{
+    width: 100%;
+    gap: 50px;
+    flex-direction: column;
+    
+}
+    .counter .products .sports .for1,
+    .counter .products .sports .for2{
+        gap: 5px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .counter .products .sports .for1 .photo1{
+     width: 90%;
+     gap: 8px;
+     padding: 12px 0;
+     justify-content: center;
+    }
+    .counter .products .sports .for1 .photo1 p{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .counter .products .sports .for1 .photo1 img{
+    height: 26%;
+    width: 85%;
+    }
+    .counter .products .sports .for1 .photo2 img{
+   height: 32%;
+   width: 85%;
+    }
+    .counter .products .sports .for1 .photo1 button,
+    .counter .products .sports .for1 .photo2 button{
+     width: 80%;
+     font-size: 9px;
+     
+     
+    }
+    .counter .products .sports .for1 .photo1 a,
+    .counter .products .sports .for1 .photo2 a{
+        font-size: 10px;
+    }
+    .counter .products .sports .for1 .photo2{
+        width: 90%;
+     gap: 0px;
+    padding: 12px 0;
+    justify-content: space-between;
+    }
+    .counter .products .sports .for1 .photo2 p{
+        font-size: 14px;
+        
+    }
+    .counter .products .sports .for2 .photo3{
+    width: 90%;
+    gap: 6px;
+   
+    justify-content: center;
+    padding: 12px 0;
+    }
+    .counter .products .sports .for2 .photo3 a,
+    .counter .products .sports .for2 .photo4 a{
+        font-size: 10px;
+    }
+    .counter .products .sports .for2 .photo4{
+        width: 90%;
+        gap: 6px;
+        height: 400px;
+        padding: 12px 0;
+        justify-content: center;
+    }
+   
+    .counter .products .sports .for2 .photo3 img{
+    width: 85%;
+    height: 140px;
+    }
+    .counter .products .sports .for2 .photo3 p{
+        font-size: 10px;
+    }
+    .counter .products .sports .for2 .photo4 img{
+        width: 90%;
+        height: 130px
+    }
+    .counter .products .sports .for2 .photo4 p{
+        font-size: 12px;
+    }
+    .counter .products .sports .for2 .photo3 button,
+    .counter .products .sports .for2 .photo4 button{
+        width: 80%;
+        font-size: 10px;
+    }
+
+
+
+    /* .........
+    ......... */
+
+    .counter .products .music{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .music .grand1,
+    .counter .products .music .grand2{
+        gap: 5px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .counter .products .music .grand1 .img1{
+        width: 90%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand1 .img1 img{
+            width: 85%;
+            height: 130px;
+    }
+     .counter .products .music .grand1 .img1 p{
+        font-size: 14px;
+     }
+    .counter .products .music .grand1 .img2{
+        width: 85%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand1 .img2 img{
+        width: 80%;
+        height: 140px;
+    }
+    .counter .products .music .grand1 .img2 p{
+        font-size: 14px;
+       
+    }
+    .counter .products .music .grand2 .img3{
+        width: 90%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand1 .img1 a,
+    .counter .products .music .grand1 .img2 a,
+    .counter .products .music .grand2 .img3 a,
+    .counter .products .music .grand2 .img4 a
+    {
+        font-size: 10px;
+    }
+    .counter .products .music .grand2 .img3 p{
+        font-size: 14px;
+    }
+    .counter .products .music .grand2 .img4{
+        width: 90%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .music .grand2 .img4 p{
+        font-size: 14px;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 140px;
+        width: 90%;
+    }
+    .counter .products .music .grand2 .img4 img{
+        width: 90%;
+        height:22%;
+    }
+    .counter .products .music .grand1 .img1 button,
+    .counter .products .music .grand1 .img2 button,
+    .counter .products .music .grand2 .img3 button,
+    .counter .products .music .grand2 .img4 button{
+        width: 85%;
+        font-size: 10px;
+    }
+
+
+    /* .......
+    ...... */
+
+    .counter .products .equipment{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    .counter .products .equipment .german1,
+    .counter .products .equipment .german2{
+        
+        gap: 2px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .counter .products .equipment .german1 .ince{
+        width: 90%;
+        gap: 6px;
+        height: 350px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+     
+    .counter .products .equipment .german1 .zwai{
+        width: 90%;
+        gap: 6px;
+        height: 350px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .equipment .german2 .drei{
+        width: 90%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .counter .products .equipment .german2 .feer{
+        width: 90%;
+        gap: 6px;
+        height: 400px;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    
+    
+    .counter .products .equipment .german1 .ince button,
+    .counter .products .equipment .german1 .zwai button,
+    .counter .products .equipment .german2 .drei button,
+    .counter .products .equipment .german2 .feer button{
+        width: 80%;
+        font-size: 10px;
+    }
+
+  .counter .products .equipment .german1 .ince img{
+    width:80%;
+    height: 98px;
+  }
+
+  .counter .products .equipment .german1 .zwai img{
+    width: 85%;
+    height: 100px;
+  }
+  .counter .products .equipment .german1 .ince p,
+  .counter .products .equipment .german1 .zwai p,
+  .counter .products .equipment .german2 .drei p
+ {
+    font-size: 14px;
+  }
+  
+  .counter .products .equipment .german2 .drei img{
+    height: 24%;
+    width: 80%;
+  }
+  .counter .products .equipment .german2 .feer img{
+    height: 18%;
+    width: 90%;
+  }
+  .counter .products .equipment .german2 .feer p{
+font-size: 12.5px;
+font-weight:bold;
+  }
+.counter .products .equipment .german1 .ince a,
+.counter .products .equipment .german1 .zwai a,
+.counter .products .equipment .german2 .drei a,
+.counter .products .equipment .german2 .feer a{
+    font-size: 10px;
+    padding: 4px;
+}
+
+    .counter .products h3{
+        font-size: 14px;
+        text-align: center;
+        color: rgb(255, 48, 48);
+    }
+  .counter .products .buttons .rent{
+    transform: translate(6px,0px);
+  }
+  
+  .counter .products .buttons .aqua1,
+  .counter .products .buttons .aqua2{
+    display: none;
+  }
+  .counter .products .buttons button{
+    font-size: 10px;
+    font-weight: bold;  
+  }
+}
+@media (min-width:1020px) and (max-width:1107px){
+    .counter .products .music .grand2 .img4 img{
+     height: 34%;
+    }
+}
+
+@media (min-width:975px) and (max-width:1000px){
+    .counter .products .music .grand2 .img4 img{
+     height: 35%;
+    }
+}
+
+@media (min-width:750px) and (max-width:800px){
+    .counter .products .music .grand2 .img4 img{
+     height: 31%;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 38%;
+    }
+    .counter .products .music .grand1 .img1 img{
+        height: 39%;
+    }
+    .counter .products .music .grand1 .img2 img{
+        height: 38%;
+    }
+}
+
+
+@media (min-width:750px) and (max-width:751px){
+    .counter .products .music .grand2 .img4 img{
+     height: 32%;
+    }
+    .counter .products .music .grand2 .img3 img{
+        height: 38%;
+    }
+    .counter .products .music .grand1 .img1 img{
+        height: 41%;
+    }
+    .counter .products .music .grand1 .img2 img{
+        height: 34%;
+    }
+}
+
+
+
+
+@media (min-width:523px) and (max-width:600px){
+    .counter .products .music .grand2 .img4 img{
+   height: 37%;
+    }
+}
+
+
+
+@media (min-width:746px) and (max-width:800px){
+    .counter .products .equipment .german2 .drei img{
+        height: 32%;
+    }
+}
+
+@media (min-width:723px) and (max-width:800px){
+    .counter .products .equipment .german2 .feer img{
+        height: 26%;
+    }
+}
+
+
+@media (min-width:794px) and (max-width:800px){
+    .counter .products .equipment .german1 .ince img{
+        height: 32%;
+    }
+}
+
+
+@media (min-width:1077px) and (max-width:1107px){
+    .counter .products .equipment .german2 .feer img{
+        height: 36%;
+    }
+}
+
+
+@media (min-width:251px) and (max-width:300px){
+    .counter .products .equipment .german2 .feer img{
+        height: 20%;
+    }
+}
+
+
+
+@media (min-width:340px) and (max-width:363px){
+     .counter .products .equipment .german2 .drei img{
+        height: 30%;
+    } 
+}
+
+
+@media (min-width:220px) and (max-width:252px){
+    .counter .products .music .grand2 .img3 img{
+        height: 42%;
+    }
+}
+
+
+@media (min-width:294px) and (max-width:300px){
+    .counter .products .music .grand2 .img3 img{
+        height: 34%;
+    }
+}
+
+
+@media (min-width:301px) and (max-width:305px){
+    .counter .products .music .grand2 .img3 p{
+        font-size: 19px;
+    }
+}
+
+
+
+@media (min-width:330px) and (max-width:355px){
+    .counter .products .music .grand2 .img3 p{
+        font-size: 19px;
+    }
+}
+
+
+
+@media (min-width:323px) and (max-width:326px){
+    .counter .products .music .grand2 .img3 img{
+        height: 160px;
+
+    }
+}
+
+
+@media (min-width:327px) and (max-width:328px){
+    .counter .products .music .grand2 .img4 img{
+        height: 120px;
+
+    }
+}
+
+
+@media (min-width:328px) and (max-width:329px){
+    .counter .products .music .grand2 .img4 img{
+        height: 135px;
+        width: 100%;
+
+    }
+}
+
+
+
+@media (min-width:330px) and (max-width:340px){
+    .counter .products .music .grand2 .img4 img{
+        height: 130px;
+        width: 100%;
+
+    }
+}
+
+@media (min-width:359px) and (max-width:400px){
+    .counter .products .sports .photo2{
+        height: auto !important;
+    }
+    .counter .products .sports .photo2 img{
+        height: 160px !important;
+    }
+}
+
+
+
+@media (min-width:378px) and (max-width:400px){
+    .counter .products .sports .photo2 img{
+        height: 160px !important;
+    }
+    .counter .swap1 {
+        justify-content: space-around;
+    }
+    
+}
+
+
+@media (min-width:390px) and (max-width:400px){
+    .counter .products .sports .for2 .photo4 img{
+        height: 150px;
+    }
+}
+
+
+@media (min-width:389px) and (max-width:400px){
+    .counter .products .sports .for2 .photo4 img{
+        height: 150px;
+    }
+}
+
+
+@media (min-width:300px) and (max-width:301px) {
+    .counter .products .sports .for1 .photo2 img{
+        height: 105px;
+    }
+    .counter .products .sports .for1 .photo2{
+        padding: 8px;
+    }
+}
+
+
+
+@media (min-width:301px) and (max-width:302px) {
+    .counter .products .sports .for1 .photo2 img{
+        height: 130px;
+    }
+    .counter .products .sports .for1 .photo2{
+        padding: 8px;
+        height: 380px;
+    }
+}
+
+
+
+@media (min-width:306px) and (max-width:318px) {
+    .counter .products .sports .for1 .photo1{
+        height:360px;
+        justify-content: space-around;
+        gap: 1px;
+    }
+    .counter .products .sports .for1 .photo2 img{
+        height: 108px;
+    }
+    .counter .products .sports .for1 .photo2{
+        justify-content: space-around;
+    }
+}
+
+
+@media (min-width:464px) and (max-width:500px) {
+    .counter .products .sports .for1 .photo1 img{
+        height: 28%;
+    }
+}
+
+
+@media (min-width:420px) and (max-width:500px) {
+    .counter .products .sports .for2 .photo4 img{
+        height: 33%;
+    }
+}
+
+
+@media (min-width:551px) and (max-width:590px) {
+    .counter .products .sports .for2 .photo3 img{
+        height: 37%;
+    }
+}
+
+
+
+@media (min-width:617px) and (max-width:800px) {
+    .counter .products .sports .for2 .photo4 img{
+        height: 41%;
+    }
+}
+
+
+
+@media (min-width:651px) and (max-width:700px) {
+    .counter .products .music .grand2 .img3 img{
+        height: 45%;
+    }
+}
+
+
+@media (min-width:1052px) and (max-width:1107px){
+    .counter .products .sports .for2 .photo4 img{
+        height: 34%;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1051px){
+    .counter .products .sports .for2 .photo4 img{
+        height: 30%;
+    }
+}
+
+
+@media (min-width:900px) and (max-width:1000px){
+    .counter .products .sports .for2 .photo4 img{
+        height: 36%;
+    }
+}
+
+
+@media (min-width:300px) and (max-width:361px){
+    .counter .products .equipment .german1 .ince img{
+        height: 36%;
+    }
+}
+
+@media (min-width:900px) and (max-width:1107px){
+    .counter .products .equipment .german1 .ince img{
+        height: 35%;
+    }
+}
